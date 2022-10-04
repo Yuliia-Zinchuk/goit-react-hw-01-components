@@ -33,10 +33,10 @@ export const App = () => {
         views={user.stats.views}
         likes={user.stats.likes}
       />
-      <Section title="Upload stats">
+      {/* <Section title="Upload stats">
         <Statistics stats={data} />
-      </Section>
-      {/* <Statistics title="Upload stats" stats={data} /> */}
+      </Section> */}
+      <Statistics title="Upload stats" stats={data} />
       {/* <Statistics stats={data} /> */}
       <FriendList friends={friends} />
       {/* <FriendListItem friends={friends} /> */}

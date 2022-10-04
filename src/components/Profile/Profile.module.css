@@ -1,0 +1,104 @@
+.profile {
+  position: relative;
+  width: 260px;
+  height: 330px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(126, 147, 255, 0.2);
+  border-radius: 6px;
+}
+
+.description {
+  /* display: block; */
+  /* margin-top: 25px; */
+  margin-top: 25px;
+  margin: auto;
+  /* flex-direction: column; */
+  position: absolute;
+  width: 118px;
+  height: 71px;
+  left: 71px;
+  top: 25px;
+}
+
+.avatar {
+  /* composes: description; */
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  /* left: 80px;
+  top: 25px; */
+
+  border-radius: 50%;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #1f3349;
+}
+
+.tag {
+  composes: name;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #7f8e9d;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 260px;
+  height: 74px;
+  left: 0px;
+  top: 256px;
+
+  border: 1px solid #7f8e9d;
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+
+  width: 86.67px;
+  height: 74px;
+
+  background: #ecf1f3;
+  border-right: 1px solid #7f8e9d;
+}
+
+.label {
+  composes: tag;
+
+  font-size: 12px;
+  line-height: 1.17;
+}
+
+.quantity {
+  composes: name;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
