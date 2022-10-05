@@ -16,7 +16,7 @@ export const TransactionHistory = ({ items }) => {
             <tr className={css.tableRow} key={id}>
               <td className={css.tableRowItem}>{type}</td>
               <td className={css.tableRowItem}>{amount}</td>
-              <td className={css.tableRowItem}>{currency}</td>
+              <td className={css.tableRowItemRight}>{currency}</td>
             </tr>
           ))}
         </tbody>
