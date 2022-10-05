@@ -1,0 +1,81 @@
+.friend_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 8px;
+
+  /* position: relative; */
+  width: 260px;
+  height: 232px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  /* padding-left: 8px; */
+  width: 260px;
+  height: 72px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(126, 147, 255, 0.2);
+  border-radius: 6px;
+}
+
+.avatar {
+  /* position: absolute; */
+  /* margin-right: 8px; */
+  width: 56px;
+  height: 56px;
+  /* left: 40px;
+  top: 8px; */
+  /* border-radius: 50%;
+  background: #d9d9d9; */
+}
+
+.name {
+  /* position: absolute; */
+  /* width: 118px;
+  height: 21px;
+  left: 104px;
+  top: 27px; */
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  color: #1f3349;
+}
+
+.isOnline {
+  /* position: absolute;*/
+  /* margin-right: 14px; */
+  width: 12px;
+  height: 12px;
+  /* left: 14px;
+  top: 30px; */
+  margin-left: 8px;
+  border-radius: 50%;
+  background: #56ab56;
+}
+
+.online {
+  composes: isOnline;
+  background: #56ab56;
+}
+
+.ofline {
+  composes: isOnline;
+  background: #e54c65;
+}
