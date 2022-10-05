@@ -35,11 +35,3 @@ Statistics.propTypes = {
     }).isRequired
   ),
 };
-
-// function getRandomHexColor() {
-//   const colorRandom = `#${Math.floor(Math.random() * 16777215)
-//     .toString(16)
-//     .padStart(6, 0)}`;
-//   //   span.textContent = colorRandom;
-//   //   body.style.backgroundColor = colorRandom;
-// }

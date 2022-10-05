@@ -12,11 +12,9 @@
 }
 
 .description {
-  /* display: block; */
-  /* margin-top: 25px; */
   margin-top: 25px;
   margin: auto;
-  /* flex-direction: column; */
+
   position: absolute;
   width: 118px;
   height: 71px;
@@ -25,12 +23,9 @@
 }
 
 .avatar {
-  /* composes: description; */
   margin: auto;
   width: 100px;
   height: 100px;
-  /* left: 80px;
-  top: 25px; */
 
   border-radius: 50%;
 
@@ -42,8 +37,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 21px;
-  /* identical to box height */
+  line-height: 1.17;
 
   text-align: center;
   letter-spacing: 0.01em;

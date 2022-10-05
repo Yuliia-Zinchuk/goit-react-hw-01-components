@@ -2,7 +2,7 @@
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  /* padding-bottom: 20px; */
+
   position: relative;
   width: 260px;
   height: 135px;
@@ -14,8 +14,7 @@
 
 .title {
   position: absolute;
-  /* width: 133px;
-  height: 21px; */
+
   left: 63px;
   top: 25px;
 
@@ -43,7 +42,6 @@
   height: 50px;
   left: 0px;
   top: 85px;
-  /* border-radius: 6px; */
 }
 
 .item {
@@ -56,13 +54,9 @@
 
   width: 65px;
   height: 50px;
-
-  /* background: #4cc6f5; */
 }
 
 .label {
-  /* composes: title; */
-
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;

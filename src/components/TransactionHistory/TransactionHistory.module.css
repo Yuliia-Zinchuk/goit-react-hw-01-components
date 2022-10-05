@@ -1,19 +1,7 @@
 .container {
   margin-top: 180px;
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto; */
 }
 .transactionHistory {
-  /* position: relative; */
-  /* margin-bottom: 40px; */
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* width: 555px;
-  height: 150px; */
   margin: auto;
 
   background: #ffffff;
@@ -26,12 +14,6 @@
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-
-  /* /* position: absolute;
-  width: 555px;
-  height: 30px;
-  left: 0px;
-  top: 0px; */
 }
 
 .tableHeaderItem {
@@ -46,7 +28,6 @@
   height: 30px;
 
   background: #4cc6f5;
-  /* stroke */
 
   border-right: 0.5px solid #c5c5c5;
 
@@ -54,8 +35,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
-  line-height: 14px;
-  /* identical to box height */
+  line-height: 1.17;
 
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -65,24 +45,13 @@
 
 .tableRowItem {
   composes: tableHeaderItem;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
 
-  width: 185px;
-  height: 30px; */
-
-  /* stroke */
   background: none;
   border-right: 0.5px solid #c5c5c5;
 
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  /* identical to box height */
 
   color: #7f8e9d;
 }
@@ -95,27 +64,15 @@
 .tableBody {
   display: flex;
   flex-direction: column;
-  /* align-items: flex-start; */
-  padding: 0px;
 
-  /* position: absolute;
-  width: 555px;
-  height: 120px;
-  left: 0px;
-  top: 30px; */
+  padding: 0px;
 }
 .tableRow {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-
-  /* background: #ffffff; */
 }
-
-/* tbody tr:nth-child(odd) {
-  background-color: #ff33cc;
-} */
 
 tbody tr:nth-child(even) {
   background: #ecf1f3;
